@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TriTraK</string>
+
+    //Train
+
+    <string name="trainTitle">Welcome User</string>
+    <string name="trainSubtitle">Log your Training Session</string>
+    <string name="trainButton">Log</string>
+    <string name="swim">Swim</string>
+    <string name="cycle">Cycle</string>
+    <string name="run">Run</string>
+    <string name="time">Time</string>
+    <string name="total">Your Progress</string>
+    <string name="totalSoFar">Total Time</string>
+    <string name="listTitle">Training List</string>
+    <string name="defaultTime">00</string>
+    <string name="defaultMethod">N/A</string>
+    <string name="enterTime">Enter your Time</string>
+    <string name="pickerMinutes">Minutes</string>
+    <string name="pickerSeconds">Seconds</string>
+
+    //menu strings
+    <string name="action_train">Train</string>
+    <string name="action_list"> Training List</string>
+</resources>
