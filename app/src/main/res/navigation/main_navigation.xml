@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/trainFragment">
+
+    <fragment
+        android:id="@+id/trainFragment"
+        android:name="ie.wit.tritrak.fragments.TrainFragment"
+        android:label="TriTrak"
+        tools:layout="@layout/fragment_train" >
+        <action
+            android:id="@+id/action_trainFragment_to_trainingListFragment"
+            app:destination="@id/trainingListFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/trainingListFragment"
+        android:name="ie.wit.tritrak.fragments.TrainingListFragment"
+        android:label="Training Log"
+        tools:layout="@layout/fragment_training_list" >
+        <action
+            android:id="@+id/action_trainingListFragment_to_trainFragment"
+            app:destination="@id/trainFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+</navigation>

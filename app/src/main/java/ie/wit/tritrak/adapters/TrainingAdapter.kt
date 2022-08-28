@@ -30,7 +30,7 @@ class TrainingAdapter constructor(private var trainings: List<TrainingModel>)
 
         fun bind(training: TrainingModel) {
             binding.trainAmount.text = training.trainamount.toString()
-            binding.trainMethod.text = training.trainingmethod
+            binding.trainingMethod.text = training.trainingmethod
             binding.imageIcon.setImageResource(R.mipmap.ic_launcher_round)
         }
     }

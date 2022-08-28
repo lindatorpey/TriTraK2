@@ -35,7 +35,7 @@
             tools:text="Mins" />
 
         <TextView
-            android:id="@+id/trainMethod"
+            android:id="@+id/trainingMethod"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"

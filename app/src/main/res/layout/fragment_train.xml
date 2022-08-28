@@ -47,7 +47,7 @@
         app:layout_constraintVertical_bias="0.114" />
 
     <RadioGroup
-        android:id="@+id/trainMethod"
+        android:id="@+id/trainingMethod"
         android:layout_width="181dp"
         android:layout_height="128dp"
         android:layout_above="@+id/progressBar"
@@ -211,4 +211,3 @@
         android:hint="@string/enterTime"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
